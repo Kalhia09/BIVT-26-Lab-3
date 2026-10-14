@@ -1,4 +1,3 @@
-﻿
 using System;
 
 namespace Lab3
@@ -65,23 +64,27 @@ namespace Lab3
 
             return hours;
         }
-
+        //rebuild
         public double Task5(int r, int type)
         {
             switch (type)
             {
                 case 1:
                     return r * r;
-
                 case 2:
                     return Math.PI * r * r;
-
                 case 3:
                     return Math.Sqrt(3) * r * r / 4.0;
-
                 default:
                     return 0;
             }
+        }
+    }
+
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
         }
     }
 }
