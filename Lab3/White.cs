@@ -1,10 +1,11 @@
 ﻿
+
 namespace Lab3
 {
     public class White
     {
         // Task 1
-        public static double Task1(int n)
+        public double Task1(int n)
         {
             double sum = 0;
 
@@ -18,7 +19,7 @@ namespace Lab3
         }
 
         // Task 2
-        public static double Task2(int n)
+        public double Task2(int n)
         {
             double best = double.MaxValue;
 
@@ -34,7 +35,7 @@ namespace Lab3
         }
 
         // Task 3
-        public static int Task3(int n, double limit)
+        public int Task3(int n, double limit)
         {
             int count = 0;
 
@@ -50,7 +51,7 @@ namespace Lab3
         }
 
         // Task 4
-        public static int Task4(int maxAmount)
+        public int Task4(int maxAmount)
         {
             int hours = 0;
             int amount = 0;
@@ -71,7 +72,7 @@ namespace Lab3
         }
 
         // Task 5
-        public static double Task5(int r, int type)
+        public double Task5(int r, int type)
         {
             switch (type)
             {
