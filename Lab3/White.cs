@@ -1,10 +1,10 @@
 ﻿
+using System;
 
 namespace Lab3
 {
     public class White
     {
-        // Task 1
         public double Task1(int n)
         {
             double sum = 0;
@@ -18,7 +18,6 @@ namespace Lab3
             return n > 0 ? sum / n : 0;
         }
 
-        // Task 2
         public double Task2(int n)
         {
             double best = double.MaxValue;
@@ -34,7 +33,6 @@ namespace Lab3
             return n > 0 ? best : 0;
         }
 
-        // Task 3
         public int Task3(int n, double limit)
         {
             int count = 0;
@@ -50,13 +48,10 @@ namespace Lab3
             return count;
         }
 
-        // Task 4
         public int Task4(int maxAmount)
         {
             int hours = 0;
-            int amount = 0;
-
-            amount = Convert.ToInt32(Console.ReadLine());
+            int amount = Convert.ToInt32(Console.ReadLine());
 
             while (amount < maxAmount)
             {
@@ -71,7 +66,6 @@ namespace Lab3
             return hours;
         }
 
-        // Task 5
         public double Task5(int r, int type)
         {
             switch (type)
